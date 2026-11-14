@@ -83,3 +83,86 @@ a {
     letter-spacing: 2px;
     margin-bottom: 10px;
 }
+
+.side-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.side-menu a {
+    color: #aab4d0;
+    padding: 13px 14px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    border-radius: 7px;
+    font-size: 12px;
+}
+
+.side-menu a i {
+    font-size: 17px;
+}
+
+.side-menu a.active {
+    background: #5142e9;
+    color: white;
+}
+
+.count {
+    background: #202e5d;
+    color: white;
+    font-size: 9px;
+    padding: 3px 7px;
+    border-radius: 5px;
+    margin-left: auto;
+}
+
+.security-card {
+    background: #1b2854;
+    border-radius: 9px;
+    padding: 15px;
+    margin-top: auto;
+    margin-bottom: 22px;
+}
+
+.security-card i {
+    color: #b8b2ff;
+    font-size: 20px;
+}
+
+.security-card h6 {
+    color: white;
+    font-size: 11px;
+    margin-top: 12px;
+    margin-bottom: 7px;
+}
+
+.security-card p {
+    font-size: 10px;
+    line-height: 16px;
+    color: #9da9c9;
+    margin: 0;
+}
+
+.help-link {
+    color: #aab4d0;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+
+.help-link i {
+    font-size: 17px;
+    margin-right: 7px;
+}
+
+.sidebar-footer {
+    color: #9da9c9;
+    font-size: 9px;
+    line-height: 18px;
+}
+
+.main-content {
+    flex: 1;
+    min-width: 0;
+}
