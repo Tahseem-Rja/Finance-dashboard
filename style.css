@@ -19,3 +19,14 @@ a {
     display: flex;
     min-height: 100vh;
 }
+
+.sidebar {
+    width: 216px;
+    min-width: 216px;
+    background: #111b43;
+    color: #aeb8d2;
+    padding: 26px 18px 18px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
