@@ -161,8 +161,3 @@ a {
     font-size: 9px;
     line-height: 18px;
 }
-
-.main-content {
-    flex: 1;
-    min-width: 0;
-}
